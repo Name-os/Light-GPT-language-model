@@ -6,13 +6,13 @@ from random import randint
 
 
 #training parameters
-batch_size           = 32
-block_size           = 512
-num_emb_tk           = 256
-num_heads            = 8
+batch_size           = 8
+block_size           = 32
+num_emb_tk           = 32
+num_heads            = 4
 block_amount         = 4
 
-training_cycles      = 6000
+training_cycles      = 5000
 eval_interval        = 100
 learning_rate        = 1e-3
 dropout              = 0.1
