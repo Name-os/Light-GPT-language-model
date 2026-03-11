@@ -168,3 +168,123 @@ Wed Feb 11 12:41:15 2026, Process 'Loading in imports' has ended with runtime of
 Wed Feb 11 12:41:15 2026, Process 'Flitering data' has started
 Wed Feb 11 12:41:16 2026, Process 'Flitering data' has ended with runtime of 1.4193250000000002 seconds
 Wed Feb 11 12:41:28 2026, Process 'Loading in imports' has started
+Wed Mar 11 18:36:07 2026, Process 'Loading in imports' has started
+Wed Mar 11 18:36:25 2026, Process 'Loading in imports' has ended with runtime of 18.0602105 seconds
+Wed Mar 11 18:36:34 2026, Process 'Loading in data' has started
+Wed Mar 11 18:36:34 2026, Process 'Loading in data' has ended with runtime of 0.045764000000000006 seconds
+Wed Mar 11 18:36:34 2026, Process 'Data parsing' has started
+Wed Mar 11 18:36:35 2026, Process 'Data parsing' has ended with runtime of 0.5003627 seconds
+Aditional information to log: Seed used for batch making is: 239609834296422
+Wed Mar 11 18:36:35 2026, Process 'Training init' has started
+Wed Mar 11 18:36:49 2026, Process 'Training init' has ended with runtime of 13.7559351 seconds
+Wed Mar 11 18:36:49 2026, Process 'Training' has started
+Aditional information to log: Number of model parameters: 61205
+Aditional information to log: Model is NOT training from a previous state
+Aditional information to log: Training progress: 0/5000 -> 0%, Loss: 5.1759
+Aditional information to log: Estimated time left: 0h 1m 36s
+Aditional information to log: Training progress: 100/5000 -> 2%, Loss: 3.1739
+Aditional information to log: Estimated time left: 0h 1m 24s
+Aditional information to log: Training progress: 200/5000 -> 4%, Loss: 2.9958
+Aditional information to log: Estimated time left: 0h 1m 21s
+Aditional information to log: Training progress: 300/5000 -> 6%, Loss: 2.6326
+Aditional information to log: Estimated time left: 0h 1m 38s
+Aditional information to log: Training progress: 400/5000 -> 8%, Loss: 2.7456
+Aditional information to log: Estimated time left: 0h 1m 21s
+Aditional information to log: Training progress: 500/5000 -> 10%, Loss: 2.6167
+Aditional information to log: Estimated time left: 0h 1m 15s
+Aditional information to log: Training progress: 600/5000 -> 12%, Loss: 2.4783
+Aditional information to log: Estimated time left: 0h 1m 13s
+Aditional information to log: Training progress: 700/5000 -> 14%, Loss: 2.6297
+Aditional information to log: Estimated time left: 0h 1m 11s
+Aditional information to log: Training progress: 800/5000 -> 16%, Loss: 2.3078
+Aditional information to log: Estimated time left: 0h 1m 10s
+Aditional information to log: Training progress: 900/5000 -> 18%, Loss: 2.2361
+Aditional information to log: Estimated time left: 0h 1m 6s
+Aditional information to log: Training progress: 1000/5000 -> 20%, Loss: 2.4642
+Aditional information to log: Estimated time left: 0h 1m 5s
+Aditional information to log: Training progress: 1100/5000 -> 22%, Loss: 2.4336
+Aditional information to log: Estimated time left: 0h 1m 13s
+Aditional information to log: Training progress: 1200/5000 -> 24%, Loss: 2.4212
+Aditional information to log: Estimated time left: 0h 1m 7s
+Aditional information to log: Training progress: 1300/5000 -> 26%, Loss: 2.4719
+Aditional information to log: Estimated time left: 0h 1m 32s
+Aditional information to log: Training progress: 1400/5000 -> 28%, Loss: 2.4357
+Aditional information to log: Estimated time left: 0h 1m 4s
+Aditional information to log: Training progress: 1500/5000 -> 30%, Loss: 2.4124
+Aditional information to log: Estimated time left: 0h 1m 0s
+Aditional information to log: Training progress: 1600/5000 -> 32%, Loss: 2.2912
+Aditional information to log: Estimated time left: 0h 1m 7s
+Aditional information to log: Training progress: 1700/5000 -> 34%, Loss: 2.5366
+Aditional information to log: Estimated time left: 0h 1m 8s
+Aditional information to log: Training progress: 1800/5000 -> 36%, Loss: 2.3824
+Aditional information to log: Estimated time left: 0h 1m 28s
+Aditional information to log: Training progress: 1900/5000 -> 38%, Loss: 2.2045
+Aditional information to log: Estimated time left: 0h 1m 5s
+Aditional information to log: Training progress: 2000/5000 -> 40%, Loss: 2.2581
+Aditional information to log: Estimated time left: 0h 0m 54s
+Aditional information to log: Training progress: 2100/5000 -> 42%, Loss: 2.3711
+Aditional information to log: Estimated time left: 0h 0m 56s
+Aditional information to log: Training progress: 2200/5000 -> 44%, Loss: 2.3242
+Aditional information to log: Estimated time left: 0h 0m 52s
+Aditional information to log: Training progress: 2300/5000 -> 46%, Loss: 2.2902
+Aditional information to log: Estimated time left: 0h 0m 59s
+Aditional information to log: Training progress: 2400/5000 -> 48%, Loss: 2.1935
+Aditional information to log: Estimated time left: 0h 1m 9s
+Aditional information to log: Training progress: 2500/5000 -> 50%, Loss: 2.3146
+Aditional information to log: Estimated time left: 0h 0m 55s
+Aditional information to log: Training progress: 2600/5000 -> 52%, Loss: 2.3272
+Aditional information to log: Estimated time left: 0h 0m 42s
+Aditional information to log: Training progress: 2700/5000 -> 54%, Loss: 2.1857
+Aditional information to log: Estimated time left: 0h 0m 37s
+Aditional information to log: Training progress: 2800/5000 -> 56%, Loss: 2.2927
+Aditional information to log: Estimated time left: 0h 0m 34s
+Aditional information to log: Training progress: 2900/5000 -> 58%, Loss: 2.1444
+Aditional information to log: Estimated time left: 0h 0m 33s
+Aditional information to log: Training progress: 3000/5000 -> 60%, Loss: 2.1060
+Aditional information to log: Estimated time left: 0h 0m 31s
+Aditional information to log: Training progress: 3100/5000 -> 62%, Loss: 2.2608
+Aditional information to log: Estimated time left: 0h 0m 30s
+Aditional information to log: Training progress: 3200/5000 -> 64%, Loss: 2.3736
+Aditional information to log: Estimated time left: 0h 0m 28s
+Aditional information to log: Training progress: 3300/5000 -> 66%, Loss: 2.3028
+Aditional information to log: Estimated time left: 0h 0m 26s
+Aditional information to log: Training progress: 3400/5000 -> 68%, Loss: 2.1750
+Aditional information to log: Estimated time left: 0h 0m 24s
+Aditional information to log: Training progress: 3500/5000 -> 70%, Loss: 2.2924
+Aditional information to log: Estimated time left: 0h 0m 23s
+Aditional information to log: Training progress: 3600/5000 -> 72%, Loss: 2.0756
+Aditional information to log: Estimated time left: 0h 0m 23s
+Aditional information to log: Training progress: 3700/5000 -> 74%, Loss: 2.1966
+Aditional information to log: Estimated time left: 0h 0m 20s
+Aditional information to log: Training progress: 3800/5000 -> 76%, Loss: 2.0823
+Aditional information to log: Estimated time left: 0h 0m 19s
+Aditional information to log: Training progress: 3900/5000 -> 78%, Loss: 2.0795
+Aditional information to log: Estimated time left: 0h 0m 17s
+Aditional information to log: Training progress: 4000/5000 -> 80%, Loss: 2.0277
+Aditional information to log: Estimated time left: 0h 0m 15s
+Aditional information to log: Training progress: 4100/5000 -> 82%, Loss: 2.0518
+Aditional information to log: Estimated time left: 0h 0m 14s
+Aditional information to log: Training progress: 4200/5000 -> 84%, Loss: 2.0748
+Aditional information to log: Estimated time left: 0h 0m 11s
+Aditional information to log: Training progress: 4300/5000 -> 86%, Loss: 2.2854
+Aditional information to log: Estimated time left: 0h 0m 10s
+Aditional information to log: Training progress: 4400/5000 -> 88%, Loss: 2.2630
+Aditional information to log: Estimated time left: 0h 0m 8s
+Aditional information to log: Training progress: 4500/5000 -> 90%, Loss: 1.9221
+Aditional information to log: Estimated time left: 0h 0m 7s
+Aditional information to log: Training progress: 4600/5000 -> 92%, Loss: 2.1178
+Aditional information to log: Estimated time left: 0h 0m 5s
+Aditional information to log: Training progress: 4700/5000 -> 94%, Loss: 2.2462
+Aditional information to log: Estimated time left: 0h 0m 3s
+Aditional information to log: Training progress: 4800/5000 -> 96%, Loss: 2.1036
+Aditional information to log: Estimated time left: 0h 0m 2s
+Aditional information to log: Training progress: 4900/5000 -> 98%, Loss: 1.9510
+Aditional information to log: Training complete
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Wed Mar 11 18:40:38 2026, Process 'Loading in imports' has started
+Wed Mar 11 18:40:41 2026, Process 'Loading in imports' has ended with runtime of 3.7507334 seconds
+Wed Mar 11 18:40:46 2026, Process 'Loading in data' has started
+Wed Mar 11 18:40:46 2026, Process 'Loading in data' has ended with runtime of 0.0271522 seconds
+Wed Mar 11 18:40:46 2026, Process 'Data parsing' has started
+Wed Mar 11 18:40:46 2026, Process 'Data parsing' has ended with runtime of 0.43563620000000003 seconds

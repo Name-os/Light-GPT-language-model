@@ -26,7 +26,7 @@ while True:
 
     #pass tbe user input into the model along with max tokens and capture output
     #get the first index (tokens) as second is loss object and turn to list
-    if not True:
+    if True:
         output = model.generate(user_input, max_tokens)[0].tolist()
     else:
         # genrate till a certain token, end_token is used in this case
