@@ -1,0 +1,170 @@
+Wed Feb  4 20:40:32 2026, Process 'Loading in imports' has started
+Wed Feb  4 20:40:35 2026, Process 'Loading in imports' has ended with runtime of 2.7382417 seconds
+Wed Feb  4 20:40:46 2026, Process 'Loading in data' has started
+Wed Feb  4 20:40:46 2026, Process 'Loading in data' has ended with runtime of 0.0047256 seconds
+Wed Feb  4 20:40:46 2026, Process 'Data parsing' has started
+Wed Feb  4 20:40:46 2026, Process 'Data parsing' has ended with runtime of 0.1392867 seconds
+Aditional information to log: Seed used for batch making is: 668416362513336
+Wed Feb  4 20:40:46 2026, Process 'Training init' has started
+Wed Feb  4 20:40:47 2026, Process 'Training init' has ended with runtime of 1.2899370000000001 seconds
+Wed Feb  4 20:40:47 2026, Process 'Training' has started
+Aditional information to log: Number of model parameters: 3206209
+Aditional information to log: Model is NOT training from a previous state
+Aditional information to log: Training progress: 0/5000 -> 0%, Loss: 4.3336
+Wed Feb  4 20:41:16 2026, Process 'Loading in imports' has started
+Wed Feb  4 20:41:17 2026, Process 'Loading in imports' has ended with runtime of 1.8304643 seconds
+Wed Feb  4 20:41:25 2026, Process 'Loading in data' has started
+Wed Feb  4 20:41:25 2026, Process 'Loading in data' has ended with runtime of 0.0028713000000000002 seconds
+Wed Feb  4 20:41:25 2026, Process 'Data parsing' has started
+Wed Feb  4 20:41:26 2026, Process 'Data parsing' has ended with runtime of 0.1239182 seconds
+Aditional information to log: Seed used for batch making is: 982469279099964
+Wed Feb  4 20:41:26 2026, Process 'Training init' has started
+Wed Feb  4 20:41:27 2026, Process 'Training init' has ended with runtime of 1.0393084000000001 seconds
+Wed Feb  4 20:41:27 2026, Process 'Training' has started
+Aditional information to log: Number of model parameters: 3206209
+Aditional information to log: Model is NOT training from a previous state
+Aditional information to log: Training progress: 0/5000 -> 0%, Loss: 4.3059
+Aditional information to log: Estimated time left: 0h 11m 34s
+Aditional information to log: Training progress: 100/5000 -> 2%, Loss: 2.4479
+Aditional information to log: Estimated time left: 0h 11m 11s
+Aditional information to log: Training progress: 200/5000 -> 4%, Loss: 2.3098
+Wed Feb  4 20:42:22 2026, Process 'Training' has ended with runtime of 55.6624325 seconds
+Aditional information to log: Training paused at Wed Feb  4 20:42:22 2026
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Aditional information to log: Training complete
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Wed Feb  4 21:15:45 2026, Process 'Loading in imports' has started
+Wed Feb  4 21:15:50 2026, Process 'Loading in imports' has ended with runtime of 4.8027335 seconds
+Wed Feb  4 21:16:03 2026, Process 'Loading in data' has started
+Wed Feb  4 21:16:03 2026, Process 'Loading in data' has ended with runtime of 0.0029583 seconds
+Wed Feb  4 21:16:03 2026, Process 'Data parsing' has started
+Wed Feb  4 21:16:03 2026, Process 'Data parsing' has ended with runtime of 0.1291177 seconds
+Aditional information to log: Seed used for batch making is: 319994326418938
+Wed Feb  4 21:16:03 2026, Process 'Training init' has started
+Wed Feb  4 21:16:04 2026, Process 'Training init' has ended with runtime of 1.1420692000000001 seconds
+Wed Feb  4 21:16:04 2026, Process 'Training' has started
+Aditional information to log: Number of model parameters: 3320897
+Aditional information to log: Model is NOT training from a previous state
+Aditional information to log: Training progress: 0/6000 -> 0%, Loss: 4.3607
+Wed Feb  4 21:28:55 2026, Process 'Training' has ended with runtime of 771.026064 seconds
+Aditional information to log: Training paused at Wed Feb  4 21:28:55 2026
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Aditional information to log: Training complete
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Wed Feb  4 21:29:24 2026, Process 'Loading in imports' has started
+Wed Feb  4 21:29:27 2026, Process 'Loading in imports' has ended with runtime of 3.0729512000000003 seconds
+Wed Feb  4 21:29:55 2026, Process 'Loading in imports' has started
+Wed Feb  4 21:29:58 2026, Process 'Loading in imports' has ended with runtime of 3.2279713 seconds
+Wed Feb  4 21:30:07 2026, Process 'Loading in data' has started
+Wed Feb  4 21:30:07 2026, Process 'Loading in data' has ended with runtime of 0.0085483 seconds
+Wed Feb  4 21:30:07 2026, Process 'Data parsing' has started
+Wed Feb  4 21:30:07 2026, Process 'Data parsing' has ended with runtime of 0.2196962 seconds
+Aditional information to log: Seed used for batch making is: 464851940847559
+Wed Feb  4 21:30:07 2026, Process 'Training init' has started
+Wed Feb  4 21:30:09 2026, Process 'Training init' has ended with runtime of 2.0660413 seconds
+Wed Feb  4 21:30:09 2026, Process 'Training' has started
+Aditional information to log: Number of model parameters: 3320897
+Aditional information to log: Model is  training from a previous state
+Aditional information to log: Training progress: 0/6000 -> 0%, Loss: 2.5177
+Wed Feb  4 21:30:24 2026, Process 'Training' has ended with runtime of 14.537195100000002 seconds
+Aditional information to log: Training paused at Wed Feb  4 21:30:24 2026
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Aditional information to log: Training complete
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Thu Feb  5 08:27:50 2026, Process 'Loading in imports' has started
+Thu Feb  5 08:27:53 2026, Process 'Loading in imports' has ended with runtime of 3.3412102000000004 seconds
+Thu Feb  5 08:28:11 2026, Process 'Loading in data' has started
+Thu Feb  5 08:28:11 2026, Process 'Loading in data' has ended with runtime of 0.005010700000000001 seconds
+Thu Feb  5 08:28:11 2026, Process 'Data parsing' has started
+Thu Feb  5 08:28:11 2026, Process 'Data parsing' has ended with runtime of 0.14390550000000002 seconds
+Aditional information to log: Seed used for batch making is: 206650159680467
+Thu Feb  5 08:28:11 2026, Process 'Training init' has started
+Thu Feb  5 08:28:13 2026, Process 'Training init' has ended with runtime of 1.8287741000000002 seconds
+Thu Feb  5 08:28:13 2026, Process 'Training' has started
+Aditional information to log: Number of model parameters: 3320897
+Aditional information to log: Model is  training from a previous state
+Aditional information to log: Training progress: 0/6000 -> 0%, Loss: 2.6382
+Thu Feb  5 12:41:57 2026, Process 'Loading in imports' has started
+Thu Feb  5 12:42:01 2026, Process 'Loading in imports' has ended with runtime of 4.1159359 seconds
+Thu Feb  5 12:42:30 2026, Process 'Loading in data' has started
+Thu Feb  5 12:42:30 2026, Process 'Loading in data' has ended with runtime of 0.0085959 seconds
+Thu Feb  5 12:42:30 2026, Process 'Data parsing' has started
+Thu Feb  5 12:42:30 2026, Process 'Data parsing' has ended with runtime of 0.32559530000000003 seconds
+Thu Feb  5 12:43:47 2026, Process 'Loading in imports' has started
+Thu Feb  5 12:43:51 2026, Process 'Loading in imports' has ended with runtime of 4.2287076 seconds
+Thu Feb  5 13:02:59 2026, Process 'Loading in imports' has started
+Thu Feb  5 13:03:03 2026, Process 'Loading in imports' has ended with runtime of 4.435961900000001 seconds
+Thu Feb  5 13:03:08 2026, Process 'Loading in imports' has started
+Thu Feb  5 13:03:12 2026, Process 'Loading in imports' has ended with runtime of 3.9516132 seconds
+Thu Feb  5 13:03:25 2026, Process 'Loading in data' has started
+Thu Feb  5 13:03:25 2026, Process 'Loading in data' has ended with runtime of 0.0099482 seconds
+Thu Feb  5 13:03:25 2026, Process 'Data parsing' has started
+Thu Feb  5 13:03:25 2026, Process 'Data parsing' has ended with runtime of 0.31326390000000004 seconds
+Sat Feb  7 11:42:34 2026, Process 'Loading in imports' has started
+Sat Feb  7 11:43:03 2026, Process 'Loading in imports' has ended with runtime of 29.4483187 seconds
+Sat Feb  7 11:48:02 2026, Process 'Loading in imports' has started
+Sat Feb  7 11:48:04 2026, Process 'Loading in imports' has ended with runtime of 1.9892412000000002 seconds
+Sun Feb  8 18:54:41 2026, Process 'Loading in imports' has started
+Sun Feb  8 18:54:53 2026, Process 'Loading in imports' has ended with runtime of 12.1217143 seconds
+Sun Feb  8 18:55:48 2026, Process 'Loading in imports' has started
+Sun Feb  8 18:55:50 2026, Process 'Loading in imports' has ended with runtime of 1.8788989 seconds
+Sun Feb  8 18:56:05 2026, Process 'Loading in imports' has started
+Sun Feb  8 18:56:07 2026, Process 'Loading in imports' has ended with runtime of 1.8917001000000002 seconds
+Sun Feb  8 18:56:53 2026, Process 'Loading in imports' has started
+Sun Feb  8 18:56:55 2026, Process 'Loading in imports' has ended with runtime of 1.9193007000000002 seconds
+Sun Feb  8 18:57:45 2026, Process 'Loading in imports' has started
+Sun Feb  8 18:57:47 2026, Process 'Loading in imports' has ended with runtime of 1.9596326000000002 seconds
+Sun Feb  8 21:05:46 2026, Process 'Loading in imports' has started
+Mon Feb  9 08:23:41 2026, Process 'Loading in imports' has started
+Mon Feb  9 08:24:07 2026, Process 'Loading in imports' has ended with runtime of 25.4988607 seconds
+Wed Feb 11 08:30:49 2026, Process 'Loading in imports' has started
+Wed Feb 11 08:31:02 2026, Process 'Loading in imports' has ended with runtime of 12.202263700000001 seconds
+Wed Feb 11 08:31:12 2026, Process 'Loading in imports' has started
+Wed Feb 11 08:31:14 2026, Process 'Loading in imports' has ended with runtime of 1.8647287000000001 seconds
+Wed Feb 11 08:31:24 2026, Process 'Loading in imports' has started
+Wed Feb 11 08:31:26 2026, Process 'Loading in imports' has ended with runtime of 1.8683025000000002 seconds
+Wed Feb 11 08:31:54 2026, Process 'Loading in imports' has started
+Wed Feb 11 08:31:55 2026, Process 'Loading in imports' has ended with runtime of 1.8557670000000002 seconds
+Wed Feb 11 08:32:45 2026, Process 'Loading in imports' has started
+Wed Feb 11 08:32:47 2026, Process 'Loading in imports' has ended with runtime of 1.8132443 seconds
+Wed Feb 11 12:16:18 2026, Process 'Loading in imports' has started
+Wed Feb 11 12:16:41 2026, Process 'Loading in imports' has ended with runtime of 22.7309449 seconds
+Wed Feb 11 12:16:41 2026, Process 'Flitering data' has started
+Wed Feb 11 12:16:43 2026, Process 'Flitering data' has ended with runtime of 1.9297971 seconds
+Wed Feb 11 12:17:49 2026, Process 'Loading in imports' has started
+Wed Feb 11 12:17:53 2026, Process 'Loading in imports' has ended with runtime of 4.0560004 seconds
+Wed Feb 11 12:17:53 2026, Process 'Flitering data' has started
+Wed Feb 11 12:17:55 2026, Process 'Flitering data' has ended with runtime of 1.9524673000000001 seconds
+Wed Feb 11 12:28:36 2026, Process 'Loading in imports' has started
+Wed Feb 11 12:28:44 2026, Process 'Loading in imports' has started
+Wed Feb 11 12:28:48 2026, Process 'Loading in imports' has ended with runtime of 4.0587713 seconds
+Wed Feb 11 12:28:48 2026, Process 'Loading in data' has started
+Wed Feb 11 12:30:19 2026, Process 'Loading in imports' has started
+Wed Feb 11 12:30:23 2026, Process 'Loading in imports' has ended with runtime of 4.1668078 seconds
+Wed Feb 11 12:30:34 2026, Process 'Loading in data' has started
+Wed Feb 11 12:30:34 2026, Process 'Loading in data' has ended with runtime of 0.0325382 seconds
+Wed Feb 11 12:30:34 2026, Process 'Data parsing' has started
+Wed Feb 11 12:30:35 2026, Process 'Data parsing' has ended with runtime of 0.6742514000000001 seconds
+Wed Feb 11 12:31:56 2026, Process 'Loading in imports' has started
+Wed Feb 11 12:32:00 2026, Process 'Loading in imports' has ended with runtime of 4.1744126 seconds
+Wed Feb 11 12:38:39 2026, Process 'Loading in data' has started
+Wed Feb 11 12:38:39 2026, Process 'Loading in data' has ended with runtime of 0.07016700000000001 seconds
+Wed Feb 11 12:38:39 2026, Process 'Data parsing' has started
+Wed Feb 11 12:38:40 2026, Process 'Data parsing' has ended with runtime of 0.6180450000000001 seconds
+Wed Feb 11 12:39:15 2026, Process 'Loading in imports' has started
+Wed Feb 11 12:39:19 2026, Process 'Loading in imports' has ended with runtime of 4.3796825 seconds
+Wed Feb 11 12:39:22 2026, Process 'Loading in data' has started
+Wed Feb 11 12:39:22 2026, Process 'Loading in data' has ended with runtime of 0.0350362 seconds
+Wed Feb 11 12:39:22 2026, Process 'Data parsing' has started
+Wed Feb 11 12:39:23 2026, Process 'Data parsing' has ended with runtime of 0.8183692 seconds
+Wed Feb 11 12:41:10 2026, Process 'Loading in imports' has started
+Wed Feb 11 12:41:15 2026, Process 'Loading in imports' has ended with runtime of 4.3902878 seconds
+Wed Feb 11 12:41:15 2026, Process 'Flitering data' has started
+Wed Feb 11 12:41:16 2026, Process 'Flitering data' has ended with runtime of 1.4193250000000002 seconds
+Wed Feb 11 12:41:28 2026, Process 'Loading in imports' has started
