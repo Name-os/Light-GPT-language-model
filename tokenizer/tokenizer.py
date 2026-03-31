@@ -1,4 +1,4 @@
-from settings import *
+from new.settings import *
 from bpe import *
 
 

@@ -1,4 +1,4 @@
-from settings import *
+from new.settings import *
 
 text = r"""Domestication
 Wild potato species occur from the southern United States to southern Chile.[15] The potato was first domesticated in southern Peru and northwestern Bolivia[16] by pre-Columbian farmers, around Lake Titicaca.[17] Potatoes were domesticated there about 7,000–10,000 years ago from a species in the S. brevicaule complex.[16][17][18]
