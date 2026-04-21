@@ -1,9 +1,4 @@
-import json
-import time
-import os
-from os.path import join, exists
-from random import randint
-
+from imports import *
 
 #training parameters
 batch_size           = 8
@@ -36,9 +31,7 @@ show_log             = True
 start_token          = "<|start|>"
 end_token            = "<|end|>"
 
-
-import utils
-log                  = utils.Log()
+log = utils.Log()
 
 log.start("Loading in imports")
 
