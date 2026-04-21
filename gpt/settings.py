@@ -31,16 +31,12 @@ show_log             = True
 start_token          = "<|start|>"
 end_token            = "<|end|>"
 
-log = utils.Log()
-
-log.start("Loading in imports")
+# log = utils.Log()
 
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
 # import tokenizer
-
-log.stop()
 
 #check what devices can be used
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

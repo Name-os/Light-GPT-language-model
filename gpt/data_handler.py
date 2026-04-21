@@ -1,15 +1,9 @@
 from settings import *
 
 
-log.start("Loading in data")
-
 #extract the raw training data
 with open(data_path, "r", encoding="utf-8") as file:
     raw_data = file.read()
-
-log.stop()
-
-log.start("Data parsing")
 
 #this all dictates what characters the model can use to genrate
 #we get a unique sorted list of all characters
@@ -129,5 +123,3 @@ all_data = torch.tensor(encode(raw_data), dtype=torch.long)
 n = int(0.9*len(all_data))
 train_data = all_data[:n]
 eval_data  = all_data[n:]
-
-log.stop()

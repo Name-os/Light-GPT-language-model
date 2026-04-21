@@ -9,10 +9,6 @@ if seed == None:
     seed = randint(0, 1000000000000000)
 torch.manual_seed(seed)
 
-log.log(f"Seed used for batch making is: {seed}")
-
-log.start("Training init")
-
 #*******TRAINING*******#
 
 #create the model with the vocab size
@@ -30,21 +26,13 @@ optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
 #create a function to save the model
 def save():
-    log.log("Saving model...")
-
     save_data = {
         "model_state" : model.state_dict(),
         "vocab_size"  : vocab_size,
     }
 
     torch.save(save_data, save_path)
-    log.log(f"Model has been saved to '{save_path}'")
 
-log.stop()
-
-log.start("Training")
-log.log(f"Number of model parameters: {sum(p.numel() for p in model.parameters())}")
-log.log(f"Model is {"\b" if train_from_file else "NOT"} training from a previous state")
 print("Press 'ctrl + c' to save and stop this process")
 
 train_estimater = utils.TrainTimeEstimater()
@@ -67,16 +55,11 @@ try:
         if step % eval_interval == 0:
             if step != 0:
                 train_estimater.stop()
-                log.log(train_estimater.estimate(step))
+                print(train_estimater.estimate(step))
                 train_estimater.start()
-            log.log(f"Training progress: {step}/{training_cycles} -> {(step/training_cycles * 100):.0f}%, Loss: {loss.item():.4f}")
 
 except KeyboardInterrupt:
-    log.stop()
-    log.log(f"Training paused at {log.get_time(True)}")
     save()
-
-log.log("Training complete")
 
 #save the model
 save()
