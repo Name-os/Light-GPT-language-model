@@ -617,3 +617,153 @@ Aditional information to log: Model has been saved to 'Pytorch\gpt chatbot\data\
 Aditional information to log: Training complete
 Aditional information to log: Saving model...
 Aditional information to log: Model has been saved to 'Pytorch\gpt chatbot\data\gpt_save.pth'
+Wed Apr 22 09:38:45 2026, Process 'Loading in imports' has started
+Wed Apr 22 09:38:47 2026, Process 'Loading in imports' has ended with runtime of 2.4194403 seconds
+Wed Apr 22 09:38:47 2026, Process 'Loading in data' has started
+Wed Apr 22 09:38:47 2026, Process 'Loading in data' has ended with runtime of 0.0232947 seconds
+Wed Apr 22 09:38:47 2026, Process 'Data parsing' has started
+Wed Apr 22 09:38:47 2026, Process 'Data parsing' has ended with runtime of 0.1518122 seconds
+Aditional information to log: Seed used for batch making is: 183594745967213
+Wed Apr 22 09:39:05 2026, Process 'Training init' has started
+Wed Apr 22 09:39:07 2026, Process 'Training init' has ended with runtime of 1.3238865000000002 seconds
+Wed Apr 22 09:39:07 2026, Process 'Training' has started
+Aditional information to log: Number of model parameters: 61205
+Aditional information to log: Model is NOT training from a previous state
+Aditional information to log: Training progress: 0/5000 -> 0%, Loss: 5.1675
+Aditional information to log: Estimated time left: 0h 1m 5s
+Aditional information to log: Training progress: 100/5000 -> 2%, Loss: 3.0465
+Aditional information to log: Estimated time left: 0h 0m 59s
+Aditional information to log: Training progress: 200/5000 -> 4%, Loss: 2.7791
+Aditional information to log: Estimated time left: 0h 0m 55s
+Aditional information to log: Training progress: 300/5000 -> 6%, Loss: 2.7104
+Aditional information to log: Estimated time left: 0h 0m 58s
+Aditional information to log: Training progress: 400/5000 -> 8%, Loss: 2.5658
+Aditional information to log: Estimated time left: 0h 0m 53s
+Aditional information to log: Training progress: 500/5000 -> 10%, Loss: 2.5212
+Aditional information to log: Estimated time left: 0h 1m 20s
+Aditional information to log: Training progress: 600/5000 -> 12%, Loss: 2.3739
+Aditional information to log: Estimated time left: 0h 1m 17s
+Aditional information to log: Training progress: 700/5000 -> 14%, Loss: 2.4262
+Aditional information to log: Estimated time left: 0h 1m 13s
+Aditional information to log: Training progress: 800/5000 -> 16%, Loss: 2.3527
+Aditional information to log: Estimated time left: 0h 1m 10s
+Aditional information to log: Training progress: 900/5000 -> 18%, Loss: 2.3453
+Aditional information to log: Estimated time left: 0h 1m 17s
+Aditional information to log: Training progress: 1000/5000 -> 20%, Loss: 2.5167
+Aditional information to log: Estimated time left: 0h 1m 11s
+Aditional information to log: Training progress: 1100/5000 -> 22%, Loss: 2.4335
+Aditional information to log: Estimated time left: 0h 1m 13s
+Aditional information to log: Training progress: 1200/5000 -> 24%, Loss: 2.3878
+Aditional information to log: Estimated time left: 0h 0m 59s
+Aditional information to log: Training progress: 1300/5000 -> 26%, Loss: 2.3511
+Aditional information to log: Estimated time left: 0h 1m 0s
+Aditional information to log: Training progress: 1400/5000 -> 28%, Loss: 2.3476
+Aditional information to log: Estimated time left: 0h 1m 13s
+Aditional information to log: Training progress: 1500/5000 -> 30%, Loss: 2.3739
+Aditional information to log: Estimated time left: 0h 0m 50s
+Aditional information to log: Training progress: 1600/5000 -> 32%, Loss: 2.3017
+Wed Apr 22 09:39:51 2026, Process 'Training' has ended with runtime of 44.6800986 seconds
+Aditional information to log: Training paused at Wed Apr 22 09:39:51 2026
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Aditional information to log: Training complete
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Wed Apr 22 09:40:13 2026, Process 'Loading in imports' has started
+Wed Apr 22 09:40:14 2026, Process 'Loading in imports' has ended with runtime of 1.2908952 seconds
+Wed Apr 22 09:40:14 2026, Process 'Loading in data' has started
+Wed Apr 22 09:40:14 2026, Process 'Loading in data' has ended with runtime of 0.009565500000000001 seconds
+Wed Apr 22 09:40:14 2026, Process 'Data parsing' has started
+Wed Apr 22 09:40:15 2026, Process 'Data parsing' has ended with runtime of 0.15680480000000002 seconds
+Aditional information to log: Seed used for batch making is: 392335943934095
+Wed Apr 22 09:40:21 2026, Process 'Training init' has started
+Wed Apr 22 09:40:22 2026, Process 'Training init' has ended with runtime of 0.8627849000000001 seconds
+Wed Apr 22 09:40:22 2026, Process 'Training' has started
+Aditional information to log: Number of model parameters: 1629845
+Aditional information to log: Model is NOT training from a previous state
+Aditional information to log: Training progress: 0/5000 -> 0%, Loss: 5.1230
+Aditional information to log: Estimated time left: 0h 23m 15s
+Aditional information to log: Training progress: 100/5000 -> 2%, Loss: 3.0849
+Aditional information to log: Estimated time left: 0h 27m 11s
+Aditional information to log: Training progress: 200/5000 -> 4%, Loss: 2.7569
+Aditional information to log: Estimated time left: 0h 26m 4s
+Aditional information to log: Training progress: 300/5000 -> 6%, Loss: 2.6523
+Aditional information to log: Estimated time left: 0h 20m 4s
+Aditional information to log: Training progress: 400/5000 -> 8%, Loss: 2.5313
+Aditional information to log: Estimated time left: 0h 19m 26s
+Aditional information to log: Training progress: 500/5000 -> 10%, Loss: 2.5874
+Aditional information to log: Estimated time left: 0h 16m 43s
+Aditional information to log: Training progress: 600/5000 -> 12%, Loss: 2.4918
+Aditional information to log: Estimated time left: 0h 20m 28s
+Aditional information to log: Training progress: 700/5000 -> 14%, Loss: 2.5181
+Aditional information to log: Estimated time left: 0h 16m 10s
+Aditional information to log: Training progress: 800/5000 -> 16%, Loss: 2.4321
+Aditional information to log: Estimated time left: 0h 19m 6s
+Aditional information to log: Training progress: 900/5000 -> 18%, Loss: 2.4116
+Aditional information to log: Estimated time left: 0h 18m 2s
+Aditional information to log: Training progress: 1000/5000 -> 20%, Loss: 2.4711
+Aditional information to log: Estimated time left: 0h 17m 54s
+Aditional information to log: Training progress: 1100/5000 -> 22%, Loss: 2.4316
+Wed Apr 22 09:48:55 2026, Process 'Training' has ended with runtime of 512.7978646 seconds
+Aditional information to log: Training paused at Wed Apr 22 09:48:55 2026
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Aditional information to log: Training complete
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Wed Apr 22 09:58:13 2026, Process 'Loading in imports' has started
+Wed Apr 22 09:58:15 2026, Process 'Loading in imports' has ended with runtime of 2.4198999000000003 seconds
+Wed Apr 22 09:58:15 2026, Process 'Loading in data' has started
+Wed Apr 22 09:58:15 2026, Process 'Loading in data' has ended with runtime of 0.0014927 seconds
+Wed Apr 22 09:58:15 2026, Process 'Data parsing' has started
+Wed Apr 22 09:58:16 2026, Process 'Data parsing' has ended with runtime of 0.08429060000000001 seconds
+Aditional information to log: Seed used for batch making is: 892852758174433
+Wed Apr 22 09:58:23 2026, Process 'Training init' has started
+Wed Apr 22 09:58:24 2026, Process 'Training init' has ended with runtime of 1.0103586 seconds
+Wed Apr 22 09:58:24 2026, Process 'Training' has started
+Aditional information to log: Number of model parameters: 1608257
+Aditional information to log: Model is NOT training from a previous state
+Aditional information to log: Training progress: 0/5000 -> 0%, Loss: 4.3894
+Wed Apr 22 09:58:28 2026, Process 'Training' has ended with runtime of 4.1795294 seconds
+Aditional information to log: Training paused at Wed Apr 22 09:58:28 2026
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Aditional information to log: Training complete
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Wed Apr 22 09:58:53 2026, Process 'Loading in imports' has started
+Wed Apr 22 09:58:54 2026, Process 'Loading in imports' has ended with runtime of 1.2877523000000002 seconds
+Wed Apr 22 09:58:54 2026, Process 'Loading in data' has started
+Wed Apr 22 09:58:54 2026, Process 'Loading in data' has ended with runtime of 0.0014975000000000001 seconds
+Wed Apr 22 09:58:54 2026, Process 'Data parsing' has started
+Wed Apr 22 09:58:54 2026, Process 'Data parsing' has ended with runtime of 0.0898366 seconds
+Aditional information to log: Seed used for batch making is: 923065149165785
+Wed Apr 22 09:59:02 2026, Process 'Training init' has started
+Wed Apr 22 09:59:03 2026, Process 'Training init' has ended with runtime of 0.7952361 seconds
+Wed Apr 22 09:59:03 2026, Process 'Training' has started
+Aditional information to log: Number of model parameters: 55233
+Aditional information to log: Model is NOT training from a previous state
+Aditional information to log: Training progress: 0/5000 -> 0%, Loss: 4.3825
+Aditional information to log: Estimated time left: 0h 1m 1s
+Aditional information to log: Training progress: 100/5000 -> 2%, Loss: 3.0414
+Aditional information to log: Estimated time left: 0h 0m 58s
+Aditional information to log: Training progress: 200/5000 -> 4%, Loss: 2.8267
+Aditional information to log: Estimated time left: 0h 0m 58s
+Aditional information to log: Training progress: 300/5000 -> 6%, Loss: 2.6808
+Aditional information to log: Estimated time left: 0h 0m 56s
+Aditional information to log: Training progress: 400/5000 -> 8%, Loss: 2.6568
+Aditional information to log: Estimated time left: 0h 0m 53s
+Aditional information to log: Training progress: 500/5000 -> 10%, Loss: 2.6231
+Aditional information to log: Estimated time left: 0h 0m 53s
+Aditional information to log: Training progress: 600/5000 -> 12%, Loss: 2.5302
+Aditional information to log: Estimated time left: 0h 0m 50s
+Aditional information to log: Training progress: 700/5000 -> 14%, Loss: 2.4801
+Aditional information to log: Estimated time left: 0h 0m 48s
+Aditional information to log: Training progress: 800/5000 -> 16%, Loss: 2.3614
+Wed Apr 22 09:59:20 2026, Process 'Training' has ended with runtime of 16.7194796 seconds
+Aditional information to log: Training paused at Wed Apr 22 09:59:20 2026
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'
+Aditional information to log: Training complete
+Aditional information to log: Saving model...
+Aditional information to log: Model has been saved to 'data\gpt_save.pth'

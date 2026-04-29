@@ -5,8 +5,8 @@ from os.path import join, exists
 from random import randint
 
 
-batch_size           = 8
-block_size           = 32
+batch_size           = 16
+block_size           = 16
 num_emb_tk           = 32
 num_heads            = 4
 block_amount         = 4
@@ -17,13 +17,20 @@ learning_rate        = 1e-3
 dropout              = 0.1
 temperature          = 0.01
 seed                 = None
-train_from_file      = False
+train_from_file      = True
 training_data_amount = 5000
 
-filter_path          = join("Pytorch","gpt chatbot","data", "alpaca_data.json")
-save_path            = join("Pytorch","gpt chatbot","data", "gpt_save.pth")
-data_path            = join("Pytorch","gpt chatbot","data", "assistiant.txt")
-log_path             = join("Pytorch","gpt chatbot","data","log.txt")
+#home use
+# filter_path          = join("Pytorch","gpt chatbot","data", "alpaca_data.json")
+# save_path            = join("Pytorch","gpt chatbot","data", "gpt_save.pth")
+# data_path            = join("Pytorch","gpt chatbot","data", "assistiant.txt")
+# log_path             = join("Pytorch","gpt chatbot","data","log.txt")
+
+#school use
+filter_path          = join("data", "alpaca_data.json")
+save_path            = join("data", "gpt_save.pth")
+data_path            = join("data", "shakespeare.txt")
+log_path             = join("data","log.txt")
 
 max_tokens           = 300
 target_size          = 512
@@ -36,6 +43,7 @@ end_token            = "<|end|>"
 class LogingError(Exception):
     def __init__(self, message):
         super().__init__(message)
+
 class Log:
     def __init__(self):
         self.timing = False
@@ -72,6 +80,7 @@ class Log:
         string = f"{self.get_time(True)}, Process '{self.process}' has ended with runtime of {(self.get_time(False) - self.time)*1e-9} seconds"
         self.print_to_file(string)
         self.timing = False
+
 class TrainTimeEstimater(Log):
     def __init__(self):
         super().__init__()
@@ -186,6 +195,7 @@ class AtttentionHead(nn.Module):
       output = weights @ value
 
       return output
+
 class MulitHeadAttention(nn.Module):
    """
    Class Information
@@ -229,6 +239,7 @@ class MulitHeadAttention(nn.Module):
       output = self.projection(output)
       output = self.dropout(output)
       return output  
+
 class FeedForwardLayer(nn.Module):
    """
    Class Information
@@ -266,6 +277,7 @@ class FeedForwardLayer(nn.Module):
 
    def forward(self, token):
       return self.neural_net(token)
+
 class Block(nn.Module):
    """
    Class Information
@@ -316,6 +328,7 @@ class Block(nn.Module):
       tokens = tokens + self.self_att_heads(self.layer_norm_1(tokens))
       tokens = tokens + self.feed_forward(self.layer_norm_2(tokens))
       return tokens
+
 
 class GPTLanguageModel(nn.Module):
     """
@@ -460,11 +473,13 @@ class GPTLanguageModel(nn.Module):
 
         return index
 
+
 def dprint(text, delay=0.01):
     for char in text:
         print(char, end="", flush=True)
         time.sleep(delay)
     print()
+
 def choose(choice_text, valid_choices:list):
     while True:
         dprint(choice_text)
@@ -472,6 +487,7 @@ def choose(choice_text, valid_choices:list):
         if choice in valid_choices:
             return choice
         dprint("Invalid choice, try again")
+
 def show_model_parameters():
     dprint(f"Current model parameters:")
     dprint(f"Batch size: {batch_size}")
@@ -488,6 +504,7 @@ def show_model_parameters():
     dprint(f"Training data amount: {training_data_amount}")
     dprint(f"Training file: {data_path}")
     dprint(f"Model save file location: {save_path}")
+
 def encode(text:str):
     """
     Function
@@ -514,6 +531,7 @@ def encode(text:str):
     """
     
     return [str_to_int[char] for char in text]
+
 def decode(nums:list):
     """
     Function
@@ -538,6 +556,7 @@ def decode(nums:list):
     """
     
     return "".join([int_to_str[num] for num in nums])
+
 def get_batch(train:bool):
     """
     Function

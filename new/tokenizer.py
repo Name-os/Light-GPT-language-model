@@ -1,15 +1,4 @@
-from settings import *
-
-#extract the raw training data
-with open(data_path, "r", encoding="utf-8") as file:
-    raw_data = file.read()
-
-#this all dictates what characters the model can use to genrate
-#we get a unique sorted list of all characters
-chars = sorted(list(set(raw_data)))
-
-#get the vocab size
-vocab_size = len(chars)
+from data import *
 
 #this makes a lookup table with each word to a number in the chars list
 str_to_int = {value : index for index, value in enumerate(chars)}
@@ -114,11 +103,3 @@ def get_batch(train:bool):
 
     #return the TENSORS
     return (questions, answers)
-
-#now to encode all of the training data into a TENSOR
-all_data = torch.tensor(encode(raw_data), dtype=torch.long)
-
-#split the data into training and evaluation in a 9 : 1 split
-n = int(0.9*len(all_data))
-train_data = all_data[:n]
-eval_data  = all_data[n:]
