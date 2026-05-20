@@ -17,20 +17,20 @@ learning_rate        = 1e-3
 dropout              = 0.1
 temperature          = 0.01
 seed                 = None
-train_from_file      = True
+train_from_file      = False
 training_data_amount = 5000
 
 #home use
-# filter_path          = join("Pytorch","gpt chatbot","data", "alpaca_data.json")
-# save_path            = join("Pytorch","gpt chatbot","data", "gpt_save.pth")
-# data_path            = join("Pytorch","gpt chatbot","data", "assistiant.txt")
-# log_path             = join("Pytorch","gpt chatbot","data","log.txt")
+filter_path          = join("Pytorch","Light-GPT-language-model","data", "alpaca_data.json")
+save_path            = join("Pytorch","Light-GPT-language-model","data", "gpt_save.pth")
+data_path            = join("Pytorch","Light-GPT-language-model","data", "assistiant.txt")
+log_path             = join("Pytorch","Light-GPT-language-model","data","log.txt")
 
 #school use
-filter_path          = join("data", "alpaca_data.json")
-save_path            = join("data", "gpt_save.pth")
-data_path            = join("data", "shakespeare.txt")
-log_path             = join("data","log.txt")
+#filter_path          = join("data", "alpaca_data.json")
+#save_path            = join("data", "gpt_save.pth")
+#data_path            = join("data", "shakespeare.txt")
+#log_path             = join("data","log.txt")
 
 max_tokens           = 300
 target_size          = 512
